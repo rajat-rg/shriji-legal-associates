@@ -15,3 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.darkModeEnabled {
+  background-color: rgb(12, 12, 23);
+  color: white;
+}

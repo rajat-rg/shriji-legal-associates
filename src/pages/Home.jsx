@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className='m-4'>
                 <Hero img={justice} imgAlign={'right'} title={'Shriji Legal Associates'} desc={`Shriji Legal Associates is a law firm based in Delhi-NCR, with a mission-driven approach to serve our clients and satisfy their needs. We aim to benefit our clients and give them affordable access to legal counsel.
-                We're here to simplify the law for you, ensuring your rights are protected and justice is served.Let's navigate the legal journey together.`} />
+                We're here to simplify the law for you, ensuring your rights are protected and justice is served.Let's navigate the legal journey together.`} customStyle={'text-primary'} />
             
             <div className="dsiclaimer text-center mx-auto min-h-full px-14">
                 <h2 className='text-4xl text-gray-800 font-bold m3-4'>Disclaimer</h2>
