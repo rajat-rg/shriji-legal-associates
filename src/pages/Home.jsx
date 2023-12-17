@@ -1,10 +1,11 @@
 import React from 'react'
-import justice from '../asset/Justice.svg'
+import logofull from '../asset/slalogofull.png'
 import Hero from '../components/Hero'
 const Home = () => {
     return (
         <div className='m-4'>
-                <Hero img={justice} imgAlign={'right'} title={'Shriji Legal Associates'} desc={`Shriji Legal Associates is a law firm based in Delhi-NCR, with a mission-driven approach to serve our clients and satisfy their needs. We aim to benefit our clients and give them affordable access to legal counsel.
+            
+                <Hero img={logofull} imgAlign={'left'} title={''} desc={`Shriji Legal Associates is a law firm based in Delhi-NCR, with a mission-driven approach to serve our clients and satisfy their needs. We aim to benefit our clients and give them affordable access to legal counsel.
                 We're here to simplify the law for you, ensuring your rights are protected and justice is served.Let's navigate the legal journey together.`} customStyle={'text-primary'} />
             
             <div className="dsiclaimer text-center mx-auto min-h-full px-14">
