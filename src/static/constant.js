@@ -5,7 +5,40 @@ import marriage from '../asset/Indian wedding-rafiki.svg'
 import litigation from '../asset/litigation.svg'
 import realestate from '../asset/realestate.svg'
 
-
+export const navLinks = [
+    {
+        name:'Home',
+        link:'/'
+    },
+    {
+        name:'About Us',
+        link:'/aboutUs'
+    },
+    {
+        name:'Services',
+        link:'/services'
+    },
+    {
+        name:'Our Team',
+        link:'/ourTeam'
+    },
+    {
+        name:'Useful Links',
+        link:'/usefulLinks'
+    },
+    {
+        name:'Photo Gallery',
+        link:'/photoGallery'
+    },
+    {
+        name:'Client Query',
+        link:'/clientQuery'
+    },
+    {
+        name:'Contact Us',
+        link:'/contactUs'
+    },
+]
 
 export const services = [{
     id:"Family-Law",
@@ -71,3 +104,83 @@ We offer tailor-designed services to our clients with the help of our experience
 Our lawyers are instrumental in advising clients dealing with legal issues in any of the four domains in which we mark our presence. We at Shriji Legal Associates do not just have legal minds, but the lawyers are understanding and educated about the emotions that go behind filing a case.
 
 Shriji Legal Associates practice client-oriented services. We invite you to try our free advice and consultation session, and only make up your mind when you are satisfied with the services we are willing to provide.`
+
+export const ourTeam = [
+    {id:1,
+        name:'nandan goyal',
+        heading:'ADVOCATE SUPREME COURT OF INDIA EX-ADDITIONAL ADVOCATE GENERAL, PUNJAB',
+        desc:'He has obtained LL.B. Degree from Delhi University in 2002 and enrolled as an advocate with Bar Council of Delhi in the same year. He is a member of Bar Council of Delhi, Delhi High Court Bar Association. He is the litigation specialist at the firm. He was Additional Advocate General for Punjab at Supreme Court of India. He is regularly appearing before Supreme Court, Delhi High Court, Other High Courts and various Tribunals/Courts. He is expert in handling Arbitration(both as an Arbitrator and as a Counsel), Civil cases, Company matters, Constitutional matters, Contract matters, Consumer matters, Divorce matters, Partnership matters, Banking law, Copy right, Cyber law, Family law, FERA/FEMA, Patent and Trade Mark, Property law, Service law, Tenancy law, Writ and Criminal trial/ Appeal. He is very effective and successful at conducting cross-examinations.',
+        img:employee
+    },
+    {id:2,
+        name:'nandan goyal',
+        heading:'ADVOCATE SUPREME COURT OF INDIA EX-ADDITIONAL ADVOCATE GENERAL, PUNJAB',
+        desc:'He has obtained LL.B. Degree from Delhi University in 2002 and enrolled as an advocate with Bar Council of Delhi in the same year. He is a member of Bar Council of Delhi, Delhi High Court Bar Association. He is the litigation specialist at the firm. He was Additional Advocate General for Punjab at Supreme Court of India. He is regularly appearing before Supreme Court, Delhi High Court, Other High Courts and various Tribunals/Courts. He is expert in handling Arbitration(both as an Arbitrator and as a Counsel), Civil cases, Company matters, Constitutional matters, Contract matters, Consumer matters, Divorce matters, Partnership matters, Banking law, Copy right, Cyber law, Family law, FERA/FEMA, Patent and Trade Mark, Property law, Service law, Tenancy law, Writ and Criminal trial/ Appeal. He is very effective and successful at conducting cross-examinations.',
+        img:employee
+    },
+    {id:3,
+        name:'nandan goyal',
+        heading:'ADVOCATE SUPREME COURT OF INDIA EX-ADDITIONAL ADVOCATE GENERAL, PUNJAB',
+        desc:'He has obtained LL.B. Degree from Delhi University in 2002 and enrolled as an advocate with Bar Council of Delhi in the same year. He is a member of Bar Council of Delhi, Delhi High Court Bar Association. He is the litigation specialist at the firm. He was Additional Advocate General for Punjab at Supreme Court of India. He is regularly appearing before Supreme Court, Delhi High Court, Other High Courts and various Tribunals/Courts. He is expert in handling Arbitration(both as an Arbitrator and as a Counsel), Civil cases, Company matters, Constitutional matters, Contract matters, Consumer matters, Divorce matters, Partnership matters, Banking law, Copy right, Cyber law, Family law, FERA/FEMA, Patent and Trade Mark, Property law, Service law, Tenancy law, Writ and Criminal trial/ Appeal. He is very effective and successful at conducting cross-examinations.',
+        img:employee
+    },
+    {id:4,
+        name:'nandan goyal',
+        heading:'ADVOCATE SUPREME COURT OF INDIA EX-ADDITIONAL ADVOCATE GENERAL, PUNJAB',
+        desc:'He has obtained LL.B. Degree from Delhi University in 2002 and enrolled as an advocate with Bar Council of Delhi in the same year. He is a member of Bar Council of Delhi, Delhi High Court Bar Association. He is the litigation specialist at the firm. He was Additional Advocate General for Punjab at Supreme Court of India. He is regularly appearing before Supreme Court, Delhi High Court, Other High Courts and various Tribunals/Courts. He is expert in handling Arbitration(both as an Arbitrator and as a Counsel), Civil cases, Company matters, Constitutional matters, Contract matters, Consumer matters, Divorce matters, Partnership matters, Banking law, Copy right, Cyber law, Family law, FERA/FEMA, Patent and Trade Mark, Property law, Service law, Tenancy law, Writ and Criminal trial/ Appeal. He is very effective and successful at conducting cross-examinations.',
+        img:employee
+    },
+    {id:5,
+        name:'nandan goyal',
+        heading:'ADVOCATE SUPREME COURT OF INDIA EX-ADDITIONAL ADVOCATE GENERAL, PUNJAB',
+        desc:'He has obtained LL.B. Degree from Delhi University in 2002 and enrolled as an advocate with Bar Council of Delhi in the same year. He is a member of Bar Council of Delhi, Delhi High Court Bar Association. He is the litigation specialist at the firm. He was Additional Advocate General for Punjab at Supreme Court of India. He is regularly appearing before Supreme Court, Delhi High Court, Other High Courts and various Tribunals/Courts. He is expert in handling Arbitration(both as an Arbitrator and as a Counsel), Civil cases, Company matters, Constitutional matters, Contract matters, Consumer matters, Divorce matters, Partnership matters, Banking law, Copy right, Cyber law, Family law, FERA/FEMA, Patent and Trade Mark, Property law, Service law, Tenancy law, Writ and Criminal trial/ Appeal. He is very effective and successful at conducting cross-examinations.',
+        img:employee
+    },
+    {id:6,
+        name:'nandan goyal',
+        heading:'ADVOCATE SUPREME COURT OF INDIA EX-ADDITIONAL ADVOCATE GENERAL, PUNJAB',
+        desc:'He has obtained LL.B. Degree from Delhi University in 2002 and enrolled as an advocate with Bar Council of Delhi in the same year. He is a member of Bar Council of Delhi, Delhi High Court Bar Association. He is the litigation specialist at the firm. He was Additional Advocate General for Punjab at Supreme Court of India. He is regularly appearing before Supreme Court, Delhi High Court, Other High Courts and various Tribunals/Courts. He is expert in handling Arbitration(both as an Arbitrator and as a Counsel), Civil cases, Company matters, Constitutional matters, Contract matters, Consumer matters, Divorce matters, Partnership matters, Banking law, Copy right, Cyber law, Family law, FERA/FEMA, Patent and Trade Mark, Property law, Service law, Tenancy law, Writ and Criminal trial/ Appeal. He is very effective and successful at conducting cross-examinations.',
+        img:employee
+    },
+    {id:7,
+        name:'nandan goyal',
+        heading:'ADVOCATE SUPREME COURT OF INDIA EX-ADDITIONAL ADVOCATE GENERAL, PUNJAB',
+        desc:'He has obtained LL.B. Degree from Delhi University in 2002 and enrolled as an advocate with Bar Council of Delhi in the same year. He is a member of Bar Council of Delhi, Delhi High Court Bar Association. He is the litigation specialist at the firm. He was Additional Advocate General for Punjab at Supreme Court of India. He is regularly appearing before Supreme Court, Delhi High Court, Other High Courts and various Tribunals/Courts. He is expert in handling Arbitration(both as an Arbitrator and as a Counsel), Civil cases, Company matters, Constitutional matters, Contract matters, Consumer matters, Divorce matters, Partnership matters, Banking law, Copy right, Cyber law, Family law, FERA/FEMA, Patent and Trade Mark, Property law, Service law, Tenancy law, Writ and Criminal trial/ Appeal. He is very effective and successful at conducting cross-examinations.',
+        img:employee
+    },
+    {id:8,
+        name:'nandan goyal',
+        heading:'ADVOCATE SUPREME COURT OF INDIA EX-ADDITIONAL ADVOCATE GENERAL, PUNJAB',
+        desc:'He has obtained LL.B. Degree from Delhi University in 2002 and enrolled as an advocate with Bar Council of Delhi in the same year. He is a member of Bar Council of Delhi, Delhi High Court Bar Association. He is the litigation specialist at the firm. He was Additional Advocate General for Punjab at Supreme Court of India. He is regularly appearing before Supreme Court, Delhi High Court, Other High Courts and various Tribunals/Courts. He is expert in handling Arbitration(both as an Arbitrator and as a Counsel), Civil cases, Company matters, Constitutional matters, Contract matters, Consumer matters, Divorce matters, Partnership matters, Banking law, Copy right, Cyber law, Family law, FERA/FEMA, Patent and Trade Mark, Property law, Service law, Tenancy law, Writ and Criminal trial/ Appeal. He is very effective and successful at conducting cross-examinations.',
+        img:employee
+    },
+    {id:9,
+        name:'nandan goyal',
+        heading:'ADVOCATE SUPREME COURT OF INDIA EX-ADDITIONAL ADVOCATE GENERAL, PUNJAB',
+        desc:'He has obtained LL.B. Degree from Delhi University in 2002 and enrolled as an advocate with Bar Council of Delhi in the same year. He is a member of Bar Council of Delhi, Delhi High Court Bar Association. He is the litigation specialist at the firm. He was Additional Advocate General for Punjab at Supreme Court of India. He is regularly appearing before Supreme Court, Delhi High Court, Other High Courts and various Tribunals/Courts. He is expert in handling Arbitration(both as an Arbitrator and as a Counsel), Civil cases, Company matters, Constitutional matters, Contract matters, Consumer matters, Divorce matters, Partnership matters, Banking law, Copy right, Cyber law, Family law, FERA/FEMA, Patent and Trade Mark, Property law, Service law, Tenancy law, Writ and Criminal trial/ Appeal. He is very effective and successful at conducting cross-examinations.',
+        img:employee
+    },
+]
+
+export const usefulLinks = ['www.ncw.nic.in',
+'www.nhrc.nic.in',
+'www.worldlii.org',
+'www.persmin.nic.in',
+'www.lawmin.nic.in',
+'www.judicialcompetitiontimes.com',
+'www.ebc-india.com',
+'www.ebc-india.com',
+'www.indianlawcds.com',
+'www.mljlibrary.com',
+'www.allindiareporter.in',
+'www.supremecourtcaselaw.com',
+'www.judis.nic.in',
+'www.supremecourt.vic.gov.au',
+'www.supremecourt.vic.gov.au',
+'www.supremecourt.wa.gov.au',
+'www.supremecourtus.gov',
+'www.icc-cpi.int',
+'www.icj-cij.org',
+'www.delhihighcourt.nic.in',
+'www.courtnic.nic.in',
+'www.supremecourtofindia.nic.in']
