@@ -6,11 +6,6 @@ import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import ServiceDetail from "./pages/ServiceDetail";
-import UsefulLinks from "./pages/UsefulLinks";
-import PhotoGallery from "./pages/PhotoGallery";
-import ClientQuery from "./pages/ClientQuery";
-import OurTeam from "./pages/OurTeam";
-import TeamMember from "./components/TeamMember";
 
 function App() {
   return (
@@ -18,16 +13,10 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/aboutUs' element={<AboutUs/>} />
+        <Route path='/about' element={<AboutUs/>} />
         <Route path='/services' element={<Services/>} />
         <Route path='/services/:id' element={<ServiceDetail/>} />
-        <Route path='/contactUs' element={<ContactUs/>} />
-        <Route path='/usefulLinks' element={<UsefulLinks/>} />
-        <Route path='/photoGallery' element={<PhotoGallery/>} />
-        <Route path='/clientQuery' element={<ClientQuery/>} />
-        <Route path='/ourTeam' element={<OurTeam/>} >
-          <Route path=':id' element={<TeamMember/>} />
-          </Route>
+        <Route path='/contact' element={<ContactUs/>} />
       </Routes>
       <Footer/>
     </div>
