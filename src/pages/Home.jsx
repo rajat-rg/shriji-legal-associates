@@ -2,6 +2,7 @@ import React from 'react'
 import logofull from '../asset/slalogofull.png'
 import HomeCarousel from '../components/HomeCarousel'
 import { useNavigate } from 'react-router-dom'
+import {services} from '../static/constant'
 const Home = () => {
     const navigate = useNavigate()
     return (
@@ -23,37 +24,18 @@ const Home = () => {
                 </div>
                 <HomeCarousel />
             </div>
-            <div className='m-4'>
+            <hr />
+            <div className='m-4 min-h-[80vh] py-6'>
                 <h3 className='font-semibold text-3xl text-center'>Areas of practice</h3>
                 <div className='sm:block grid md:grid-cols-2 grid-cols-3'>
-
-                    <div className='p-4 border hover:border-primary m-3'>
-                        <h4 className='text-2xl '>family law</h4>
-                        <p>the family is a good thing</p>
-                        <p className='underline text-primary m-auto text-end'>read more</p>
-                    </div>
-                    <div className='p-4 border hover:border-primary m-3'>
-                        <h4 className='text-2xl '>family law</h4>
-                        <p>the family is a good thing</p>
-                        <p className='underline text-primary m-auto text-end'>read more</p>
-                    </div>
-                    <div className='p-4 border hover:border-primary m-3'>
-                        <h4 className='text-2xl '>family law</h4>
-                        <p>the family is a good thing</p>
-                        <p className='underline text-primary m-auto text-end'>read more</p>
-                    </div>
-                    <div className='p-4 border hover:border-primary m-3'>
-                        <h4 className='text-2xl '>family law</h4>
-                        <p>the family is a good thing</p>
-                        <p className='underline text-primary m-auto text-end'>read more</p>
-                    </div>
-                    <div className='p-4 border hover:border-primary m-3'>
-                        <h4 className='text-2xl '>family law</h4>
-                        <p>the family is a good thing</p>
-                        <p className='underline text-primary m-auto text-end'>read more</p>
-                    </div>
-                    
-                    
+                    {
+                        services.slice(0,6).map((e) => {return <div className='p-4 border hover:border-primary m-3' id={e.id} key={e.id}>
+                                <h4 className='text-2xl '>{e.title}</h4>
+                                <p>{e.short_desc}</p>
+                                <p className='underline text-primary m-auto text-end cursor-pointer' onClick={()=>navigate(`/services/${e.id}`)}>read more</p>
+                            </div>}
+                        )
+                    }
                 </div>
                 <button className='bg-primary px-6 py-2 font-semibold rounded-lg text-white m-4 hover:shadow-xl hover:bg-[#2b6e63] shadow-lg focus:outline-none focus:ring focus:ring-black ' onClick={() => { navigate('/services') }} >Explore more</button>
             </div>
