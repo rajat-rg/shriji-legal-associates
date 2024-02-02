@@ -8,7 +8,7 @@ const AboutUs = () => {
     return (
         <div className='container'>
         <Hero img={about} imgAlign={'left'} title={'Shriji Legal Associates'} desc={aboutUs}/>
-        <Hero img={lawyer} imgAlign={'right'} title={'Nandan Goyal - founder'} desc={aboutUs}/>
+        <Hero img={lawyer} imgAlign={'right'} title={'Nandan Goyal'} desc={aboutUs}/>
         </div>
         
     )

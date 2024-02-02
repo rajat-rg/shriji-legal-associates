@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className='py-16 mt-10 text-center border border-t-2'>
       <div className='flex flex-row justify-around border-b-2 pb-2 mb-2'>
         <div className="left">shriji legal associates
-          <p>www.shriji.com</p>
-          <p>shrii@email.com</p>
-          <p>452145214521</p>
-          <p>address 123 noida</p>
+          <p>Litigationwork@gmail.com</p>
+          <p>ShrijiLegalAssociates@gmail.com</p>
+          <p>183, Lawyer's Chamber, Block II, Delhi High Court, New Delhi - 110003 </p>
+          <p>523, Chamber Block, Dwarka District Court, Dwarka, Delhi - 110075 </p>
         </div>
         <div className="right flex flex-row gap-4">
           <div>

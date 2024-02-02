@@ -20,7 +20,7 @@ export const navLinks = [
     },
     {
         name:'Our Team',
-        link:'/ourTeam'
+        link:'/ourTeam/1'
     },
     {
         name:'Useful Links',
@@ -40,16 +40,24 @@ export const navLinks = [
     },
 ]
 
-export const services = [{
+export const services = [
+    {
     id:"Family-Law",
-    title:"Family Law",
+    title:"Criminal Disputes",
+    short_desc:"Family LawCompassionate Guidance and Expertise for Family Law Matters and Divorce Consultation.",
+    desc:"We have an expert team of lawyers in India who expertise in Divorce related matters. They advise as well as represent the clients on aspects of their rights under the Special Marriage Act, Succession Act, and laws of Hindus, Muslims, and Christians with regards to alimony, maintenance, custody, guardianship, divorce, inheritance, and more. Litigants are helped by our lawyers at Shriji Legal Associates to deal with the environment of stress and mental pressure in the courtroom. The team of Shriji Legal Associates has the finest and the most refined divorce lawyers in India who represent their clients before the High Court and Supreme Court of India, and all-district courts to seek rights and justice for them. We provide a helping hand to couples who are seeking divorce and separation from each other. Our expert team looks after its client’s understanding and helps them from the process of filing the petition, looking after the paperwork, court hearings, and all the parts involved within the legal boundaries. There are two kinds of Divorces one is contested and another is mutual, we the team of Divorce lawyers at Shriji Legal Associates provide you assistance in both of its kind. With expertise in the field, we assure you undying support in the process of legally divorcing your lawfully wedded partner.",
+    img:family
+},
+    {
+    id:"Family-Law",
+    title:"Family Law and Disputes",
     short_desc:"Family LawCompassionate Guidance and Expertise for Family Law Matters and Divorce Consultation.",
     desc:"We have an expert team of lawyers in India who expertise in Divorce related matters. They advise as well as represent the clients on aspects of their rights under the Special Marriage Act, Succession Act, and laws of Hindus, Muslims, and Christians with regards to alimony, maintenance, custody, guardianship, divorce, inheritance, and more. Litigants are helped by our lawyers at Shriji Legal Associates to deal with the environment of stress and mental pressure in the courtroom. The team of Shriji Legal Associates has the finest and the most refined divorce lawyers in India who represent their clients before the High Court and Supreme Court of India, and all-district courts to seek rights and justice for them. We provide a helping hand to couples who are seeking divorce and separation from each other. Our expert team looks after its client’s understanding and helps them from the process of filing the petition, looking after the paperwork, court hearings, and all the parts involved within the legal boundaries. There are two kinds of Divorces one is contested and another is mutual, we the team of Divorce lawyers at Shriji Legal Associates provide you assistance in both of its kind. With expertise in the field, we assure you undying support in the process of legally divorcing your lawfully wedded partner.",
     img:family
 },
 {
     id:"Real-Estate-Law",
-    title:"Real Estate Law",
+    title:"Civil Disputes",
     short_desc:"Offering Comprehensive Legal Solutions for all your Real Estate Needs.",
     desc:`Real Estate Regulation Act, which is better known as RERA is an act passed by the parliament in the year 2016. It ensures any kind of builder-buyer disputes and also helps protect the interest of builder-buyer agreements that were signed by both the parties at the time of property deal. We at Shriji Legal Associates are a team of expert lawyers and advocates who ensure adequate relief to both parties in a non–discriminatory manner and help them reach a righteous decision. Retribution of disputes within both the parties is looked after by the RERA Act, which is a law created to safeguard the rights of both builders and buyers. The Relief of Possession and compensation is granted by RERA Authority and the Refund and Interest are granted by the Adjudicating Officer. If you are facing issues and your rights are violated under RERA Act then our lawyers will help you in disposing and resolving any kind of violation of rights and trickery. For further information, any property or project which is registered under RERA Laws or even unregistered will fall under its Act. Both the parties can seek restitution of their grievances by filing a complaint before the authority with the help of Shriji Legal Associates’s esteemed lawyers and advocates.`,
     img:realestate
@@ -63,21 +71,21 @@ export const services = [{
 },
 {
     id:"Employee-Verification",
-    title:"Employee Verification",
+    title:"Labour Disputes",
     short_desc:"Ensuring Peace of Mind through Thorough Employee Verification Services.",
     desc:`Hiring an employee for your esteemed organization? In this case, one common thing is to know the person in and out for better future guarantees. Here is where we walk in; our team of lawyers who expertise in background verification of a person who is to be employed will help you find the right one just as per your will. Finding answers to few questions alone without help is a hideous process, and not everyone is a pro in searching for information; the lawyers at Shriji Legal Associates will be at your disposal and help you choose the right one! Hiring someone for employment in your esteemed organization for a position is a matter of creating a working family of your own. Knowing the employee's background and knowing about his/ her past experiences is the utmost duty of the hiring manager. To make a 'working family' process smoothly, the employer must know that the employees correctly show their documents and their background is legally apt for a similar process, hiring Lawyers from Shriji Legal Associates will help in creating a good employee organization for you.`,
     img:employee
 },
 {
     id:"Pre-Marital-Verification",
-    title:"Pre Marital Verification",
+    title:"Marriage Registration",
     short_desc:"Comprehensive Background Checks to Safeguard Your Future.",
     desc:`Looking for a lifetime relationship with someone to live an ideal life that you have imagined? In this case, one thing is to know the person in and out for better future guarantees. Here is where we walk in, our lawyers who expertise in background verification of a person who is to be married will help you find the right one to spend your life with. Finding answers to few questions alone without help is a very tiring and long process, and not everyone is a professional in searching for information and details. The advocates at Shriji Legal Associates will be lending a helping hand for you choose to the right one! As they call it, marriage is a tie of a lifetime; hence, finding someone to spend your whole life with is a challenging task, majorly if the wedding is arranged. Crime records, family history, age, credit history, character verification are some of the matters that cannot be directly checked, and even if it is checked, the probability of them being true is not 100%. Now is when you need professional help; getting all the right information served on your plate will be the work of Shriji Legal Associates's trained and experienced lawyers. For best assurance, your consultation with the lawyer will be for free.`,
     img:marriage
 },
 {
     id:"Litigation-and-Dispute",
-    title:"Litigation and Dispute",
+    title:"Property Documentation",
     short_desc:"Strategic Advocacy and Effective Resolution for Legal Disputes.",
     desc:`we offer a comprehensive range of services for litigation and dispute resolution to help our clients navigate complex legal challenges. Our experienced team of legal professionals is dedicated to providing strategic advocacy and effective resolution for a wide array of disputes.
 

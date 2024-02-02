@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { ourTeam } from '../static/constant'
-import { Link, Outlet } from 'react-router-dom'
+import { Link, Outlet, useLocation } from 'react-router-dom'
 const OurTeam = () => {
+  const location = useLocation()
   const [member, setMember] = useState(ourTeam[0])
-  console.log(ourTeam[0])
   return (
     <div className='min-h-[80vh]'>
       <h1 className='font-semibold text-5xl text-center my-2'>Our Team</h1>
@@ -11,7 +11,7 @@ const OurTeam = () => {
         <div className=' min-w-[25vw] py-4 md:min-w-full '>
           <ul className='flex flex-col'>
             {ourTeam.map((e) => {
-              return <Link to={`/ourTeam/${e.id}`} onClick={() => setMember(e)} id={e.id} className='even:bg-gray-300 odd:bg-gray-400 capitalize font-medium text-lg p-2'><li>{e.name}</li></Link>
+              return <Link to={`/ourTeam/${e.id}`} onClick={() => setMember(e)} id={e.id} className={` capitalize font-medium text-lg p-2 active:text-primary active:bg-black ${location.pathname[location.pathname.length - 1] == e.id ? 'bg-black text-primary' : 'even:bg-gray-300 odd:bg-gray-400'}`}><li>{e.name}</li></Link>
             })}
           </ul>
         </div>

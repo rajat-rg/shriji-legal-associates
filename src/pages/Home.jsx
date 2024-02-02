@@ -1,17 +1,63 @@
 import React from 'react'
 import logofull from '../asset/slalogofull.png'
-import Hero from '../components/Hero'
+import HomeCarousel from '../components/HomeCarousel'
+import { useNavigate } from 'react-router-dom'
 const Home = () => {
+    const navigate = useNavigate()
     return (
-        <div className='m-4'>
-            
-                <Hero img={logofull} imgAlign={'left'} title={''} desc={`Shriji Legal Associates is a law firm based in Delhi-NCR, with a mission-driven approach to serve our clients and satisfy their needs. We aim to benefit our clients and give them affordable access to legal counsel.
-                We're here to simplify the law for you, ensuring your rights are protected and justice is served.Let's navigate the legal journey together.`} customStyle={'text-primary'} />
-            
-            <div className="dsiclaimer text-center mx-auto min-h-full px-14">
-                <h2 className='text-4xl text-gray-800 font-bold m3-4'>Disclaimer</h2>
-                <p className='font-light text-left text-gray-500'>The Bar Council of India does not permit advertisement or solicitation by advocates in any form or manner. By accessing this website, www.kanoon-e.in, you acknowledge and confirm that you are seeking information relating to Kanoon-e of your own accord and that there has been no form of solicitation, advertisement or inducement by Kanoon-e or its members. The content of this website is for informational purposes only and should not be interpreted as soliciting or advertisement. No material/information provided on this website should be construed as legal advice. Kanoon-e shall not be liable for consequences of any action taken by relying on the material/information provided on this website. The contents of this website are the intellectual property of Kanoon-e.</p>
+        <div>
+
+
+            <div className='m-4'>
+
+                <div className="hero min-h-[80vh] flex flex-row sm:flex-wrap xs justify-center items-center container">
+                    <img src={logofull} alt='sla' className='h-[40%] w-[40%] sm:h-[80%] sm:w-[80%] inline' />
+                    <div className='m-4'>
+                        <p className=' text-lg pl-3 border-l-4 border-primary'>Shriji Legal Associates is a law firm based in Delhi-NCR, with a mission-driven approach to serve our clients and satisfy their needs. We aim to benefit our clients and give them affordable access to legal counsel. We're here to simplify the law for you, ensuring your rights are protected and justice is served.</p>
+                        <div className='mt-6 px-4'>
+                            <p className='text-xl text-gray-700'> Ready to start your legal journey with us</p>
+                            <button className='bg-primary px-6 py-2 font-semibold rounded-lg text-white my-3 hover:shadow-xl hover:bg-[#2b6e63] shadow-lg focus:outline-none focus:ring focus:ring-black' onClick={() => { navigate('/clientQuery') }} >Let's Begin</button>
+                        </div>
+                    </div>
+
+                </div>
+                <HomeCarousel />
             </div>
+            <div className='m-4'>
+                <h3 className='font-semibold text-3xl text-center'>Areas of practice</h3>
+                <div className='sm:block grid md:grid-cols-2 grid-cols-3'>
+
+                    <div className='p-4 border hover:border-primary m-3'>
+                        <h4 className='text-2xl '>family law</h4>
+                        <p>the family is a good thing</p>
+                        <p className='underline text-primary m-auto text-end'>read more</p>
+                    </div>
+                    <div className='p-4 border hover:border-primary m-3'>
+                        <h4 className='text-2xl '>family law</h4>
+                        <p>the family is a good thing</p>
+                        <p className='underline text-primary m-auto text-end'>read more</p>
+                    </div>
+                    <div className='p-4 border hover:border-primary m-3'>
+                        <h4 className='text-2xl '>family law</h4>
+                        <p>the family is a good thing</p>
+                        <p className='underline text-primary m-auto text-end'>read more</p>
+                    </div>
+                    <div className='p-4 border hover:border-primary m-3'>
+                        <h4 className='text-2xl '>family law</h4>
+                        <p>the family is a good thing</p>
+                        <p className='underline text-primary m-auto text-end'>read more</p>
+                    </div>
+                    <div className='p-4 border hover:border-primary m-3'>
+                        <h4 className='text-2xl '>family law</h4>
+                        <p>the family is a good thing</p>
+                        <p className='underline text-primary m-auto text-end'>read more</p>
+                    </div>
+                    
+                    
+                </div>
+                <button className='bg-primary px-6 py-2 font-semibold rounded-lg text-white m-4 hover:shadow-xl hover:bg-[#2b6e63] shadow-lg focus:outline-none focus:ring focus:ring-black ' onClick={() => { navigate('/services') }} >Explore more</button>
+            </div>
+
         </div>
     )
 }

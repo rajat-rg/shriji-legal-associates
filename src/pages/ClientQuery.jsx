@@ -56,7 +56,7 @@ const ClientQuery = () => {
           <textarea className='bg-transparent border border-b-primary-500 border-b-2  focus:outline-none focus:border-b-black mb-2 p-2'
             type="text" name="message" id="message" aria-required
             value={contactForm.message} onChange={(e) => { setContactForm({ ...contactForm, [e.target.name]: e.target.value }) }} />
-        <button className='bg-primary px-6 py-2 font-semibold rounded-lg text-white my-3 hover:shadow-xl hover:bg-green-800 shadow-lg focus:outline-none focus:ring focus:ring-black '
+        <button className='bg-primary px-6 py-2 font-semibold rounded-lg text-white my-3 hover:shadow-xl hover:bg-[#2b6e63] shadow-lg focus:outline-none focus:ring focus:ring-black '
         onClick={handleSubmit}>Submit</button>
         </form>
       </div>
